@@ -7,4 +7,3 @@ fun_test=function(x){
 cat(paste("You have print:",x))
 }
 
-fun_test(4)
