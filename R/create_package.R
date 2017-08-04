@@ -1,10 +1,10 @@
-package.skeleton(name = "LapseRateCalculator",path = "C:/Users/CBrida/Desktop/Git/Upload/",
-                 code_files = c("C:/Users/CBrida/Desktop/LapseRateCalculator/R/fun_dew_point.R",
-                                "C:/Users/CBrida/Desktop/LapseRateCalculator/R/fun_read_all_stations.R"))
+NULL
 
+#'@param x input value
+#'@description function that print input values
 
-getwd()
-setwd("C:/Users/CBrida/Desktop/Git/Download/LapseRateCalculator/")
-roxygen2::roxygenise()
-library(devtools)
-document()
+fun_test=function(x){
+cat(paste("You have print:",x))
+}
+
+fun_test(4)
